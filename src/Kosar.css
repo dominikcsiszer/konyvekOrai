@@ -1,0 +1,10 @@
+.kosarItem {
+    cursor: pointer;
+}
+.kosarItem:hover {
+    background-color: rgb(255, 246, 246);
+}
+
+.kosarItem span {
+    cursor: pointer;
+}

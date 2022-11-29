@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+}
+
+.app-header {
+  height: 10rem;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.konyvek {
+  max-width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+
+.kosar {
+  max-width: 40%;
+  margin: auto;
+}
+
+.kosarTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+.kosarTable tr, .kosarTable th, .kosarTable td {
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 720px) {
+  .konyvek {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .konyvek {
+    grid-template-columns: auto;
+  }
+}
+
+footer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 50px;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
