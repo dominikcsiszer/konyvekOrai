@@ -22,6 +22,7 @@ body {
 
 .kosar {
   max-width: 40%;
+  width: 100%;
   margin: auto;
 }
 
@@ -32,6 +33,13 @@ body {
 }
 .kosarTable tr, .kosarTable th, .kosarTable td {
   border: 1px solid black;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 720px) {

@@ -77,6 +77,7 @@ function App() {
         <header className='app-header'>
             <h2>Könyváruház</h2>
         </header>
+        <main className='main-section'>
         <section className='kosar'>
           <p>Könyvek száma: {db}</p>
           <table className="kosarTable">
@@ -86,10 +87,11 @@ function App() {
                 <th>Szerző</th>
                 <th>Darab</th>
                 <th>Ár</th>
+                <th>Művelet</th>
             </thead>
             <tbody>
               {kosar.map((kosar, index) => {
-                return (<Kosar konyvAdat={kosar} key={index} kosarTorol={kosarTorol} />)
+                return (<Kosar konyvAdat={kosar} key={index} kosarTorol={kosarTorol} kosarFeldolgoz={kosarFeldolgoz} />)
               })}
             </tbody>
           </table>
@@ -100,6 +102,7 @@ function App() {
             return ( <Konyv konyvAdat={konyvAdat} key={index} kosarFeldolgoz={kosarFeldolgoz} />)
           })}
         </article>
+        </main>
         <footer>
             Csiszi
         </footer>

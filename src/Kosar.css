@@ -1,10 +1,14 @@
 .kosarItem {
-    cursor: pointer;
+    cursor: default;
 }
 .kosarItem:hover {
     background-color: rgb(255, 246, 246);
 }
 
-.kosarItem span {
+.kosarItem i {
+    cursor: pointer;
+}
+
+.kosarItem button {
     cursor: pointer;
 }
