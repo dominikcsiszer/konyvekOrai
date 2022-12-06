@@ -87,7 +87,7 @@ function Admin() {
             <h1>Admin felület</h1>
             <Ujtermek key='1' mentes={mentes} />
             <hr></hr>
-            <table>
+            <table className='table'>
                 <thead>
                     <th>#</th>
                     <th>Cím</th>

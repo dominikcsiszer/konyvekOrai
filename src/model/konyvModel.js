@@ -30,8 +30,9 @@ class konyvModel {
     }
 
     adatMentes(adat) {
+        let id = this.#konyv[this.#konyv.length-1].id + 1
         this.#konyv.push(adat)
-        this.#konyv[this.#konyv.length-1].id = this.#konyv.length
+        this.#konyv[this.#konyv.length-1].id = id
     }
 
     getkonyvek() {
