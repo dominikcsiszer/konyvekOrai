@@ -1,0 +1,19 @@
+.admin {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+hr {
+    margin: 2rem 0;
+}

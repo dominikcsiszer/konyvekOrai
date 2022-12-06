@@ -1,0 +1,19 @@
+form {
+    border: 1px solid black;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+fieldset input {
+    width: 100%;
+}
+fieldset label {
+    width: 100%;
+    align-items: flex-start;
+}

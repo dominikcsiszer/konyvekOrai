@@ -1,0 +1,40 @@
+{
+  "konyvek": [
+    {
+      "id": 1,
+      "cim": "Első könyv",
+      "szerzo": "Ismeretlen",
+      "ar": 12000
+    },
+    {
+      "id": 2,
+      "cim": "Második könyv",
+      "szerzo": "Ismeretlen",
+      "ar": 20000
+    },
+    {
+      "id": 3,
+      "cim": "Harmadk könyv",
+      "szerzo": "Ismeretlen",
+      "ar": 8000
+    },
+    {
+      "id": 4,
+      "cim": "Negyedik könyv",
+      "szerzo": "Ismeretlen",
+      "ar": 11000
+    },
+    {
+      "id": 5,
+      "cim": "Ötödik könyv",
+      "szerzo": "Ismeretlen",
+      "ar": 1000
+    },
+    {
+      "id": 6,
+      "cim": "Hatodik könyv",
+      "szerzo": "Ismeretlen",
+      "ar": 1200
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.konyv {
+    min-height: 200px;
+    max-width: 200px;
+    padding: 1rem;
+    border: 1px solid #000;
+}
